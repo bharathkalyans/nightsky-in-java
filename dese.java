@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Random;
+
 import java.util.Scanner;
 class nightsky {
     double density;
@@ -56,5 +57,6 @@ public class dese {
 
     stars.prinline();
         System.out.println("Number of Stars in Sky:: "+ stars.totalstars());
+        
     }
 }
