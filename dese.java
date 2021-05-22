@@ -10,8 +10,8 @@ public  int noofstars=0;
     Random r = new Random();
     //Usually go with this constructor!!
     //Its far more convenient ;-)
-    nightsky(double intensity, int wid, int he) {
-        this.density = intensity;
+    nightsky(double density, int wid, int he) {
+        this.density = density;
         this.width = wid;
         this.height = he;
     }
@@ -29,7 +29,7 @@ public  int noofstars=0;
     }
 
     void prinline() {
-        for (int j = 0; j < height; j++) {
+        for (int j = 0; j < this.height; j++) {
             for (int i = 0; i < this.width; i++) {
                 if (r.nextDouble() <= density)
                 {
